@@ -1,0 +1,15 @@
+---
+inventory:
+  plugin: ExcelInventory
+  options:
+    excel_file: "inventory/dev.xlsx"
+
+runner:
+  plugin: threaded
+  options:
+    num_workers: 10
+
+logging:
+  enabled: false
+  level: INFO
+  log_file: "nornir_run.log"

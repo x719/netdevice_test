@@ -1,0 +1,1562 @@
+2026-03-23 16:39:30,535 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:39:30,537 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:39:30,537 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:39:30,537 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:39:30,537 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:40:53,532 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:40:53,532 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:40:53,532 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:40:53,532 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:40:53,532 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:41:34,726 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:41:34,731 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:41:34,731 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:41:34,731 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:41:34,731 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:00,474 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:42:00,474 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:00,474 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:00,474 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:00,474 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:59,067 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:42:59,067 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:59,067 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:59,067 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:42:59,067 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 10, in netdevice_start_conf_backup
+    cmd_bak = task.host.date['cmd_bak']
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 354, in __getattribute__
+    return object.__getattribute__(self, name)
+AttributeError: 'Host' object has no attribute 'date'
+
+2026-03-23 16:43:56,348 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:44:43,592 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:45:22,426 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:46:42,768 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:48:23,723 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:48:23,723 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/R2.log'
+
+2026-03-23 16:48:23,723 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/R1.log'
+
+2026-03-23 16:48:23,739 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/SW1.log'
+
+2026-03-23 16:48:23,739 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/SW2.log'
+
+2026-03-23 16:48:23,739 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:48:23,739 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:48:23,739 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:48:23,739 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:48:56,818 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:48:56,818 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/R1.log'
+
+2026-03-23 16:48:56,818 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/SW2.log'
+
+2026-03-23 16:48:56,818 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/SW1.log'
+
+2026-03-23 16:48:56,818 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 407, in __init__
+    self.session_log.open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\session_log.py", line 53, in open
+    self.session_log = open(
+FileNotFoundError: [Errno 2] No such file or directory: './netdevice_test/cmd_log/R2.log'
+
+2026-03-23 16:48:56,833 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:48:56,833 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:48:56,833 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:48:56,833 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:51:12,852 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:51:13,303 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.14:22
+
+
+Authentication failed.
+
+2026-03-23 16:51:13,303 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.13:22
+
+
+Authentication failed.
+
+2026-03-23 16:51:13,303 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:51:13,303 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:51:13,795 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.11:22
+
+
+Authentication failed.
+
+2026-03-23 16:51:13,795 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:53:20,030 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:53:20,430 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.13:22
+
+
+Authentication failed.
+
+2026-03-23 16:53:20,430 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:53:20,446 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.14:22
+
+
+Authentication failed.
+
+2026-03-23 16:53:20,446 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:53:20,949 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.11:22
+
+
+Authentication failed.
+
+2026-03-23 16:53:20,949 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:55:15,644 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 16:55:16,106 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.13:22
+
+
+Authentication failed.
+
+2026-03-23 16:55:16,106 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:55:16,169 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.14:22
+
+
+Authentication failed.
+
+2026-03-23 16:55:16,169 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:55:16,649 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.11:22
+
+
+Authentication failed.
+
+2026-03-23 16:55:16,649 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 16:55:28,175 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<R1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 16:55:28,175 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 17:04:54,845 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:04:54,847 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:04:54,847 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:04:54,847 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:04:54,847 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:05:56,133 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:05:56,149 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:05:56,149 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:05:56,149 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:05:56,149 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    now = datetime.now()
+AttributeError: module 'datetime' has no attribute 'now'
+
+2026-03-23 17:07:01,565 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:07:12,550 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<SW1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:07:12,550 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 14, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 17:07:12,660 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<SW2>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:07:12,661 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 14, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 17:07:16,083 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<R1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:07:16,083 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 14, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 17:07:16,278 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<R2>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:07:16,280 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 14, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 17:08:57,923 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:09:12,673 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: 'Info:\\ The\\ configuration\\ takes\\ effect\\ on\\ the\\ current\\ user\\ terminal\\ interface\\ only\\.' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:09:12,673 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 13, in netdevice_start_conf_backup
+    task.run(netmiko_send_command, command_string=cmd)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 173, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: netmiko_send_command (failed)
+
+
+2026-03-23 17:09:36,678 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:10:06,592 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:10:06,592 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:06,592 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:06,592 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:06,592 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:34,554 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:10:34,554 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:34,554 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:34,554 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:34,554 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netdevice_start_conf_backup' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\runbook.py", line 9, in netdevice_start_conf_backup
+    time = str(datetime.date.today())
+AttributeError: 'method_descriptor' object has no attribute 'today'
+
+2026-03-23 17:10:56,537 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:14:10,842 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:19:33,766 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:19:34,219 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.13:22
+
+
+Authentication failed.
+
+2026-03-23 17:19:44,815 - nornir.core.task -    ERROR -      start() - Host 'SW2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<SW2>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:19:47,041 - nornir.core.task -    ERROR -      start() - Host 'R2': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<R2>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:19:47,128 - nornir.core.task -    ERROR -      start() - Host 'R1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 32, in netmiko_send_command
+    result = net_connect.send_command(command_string, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\utilities.py", line 667, in wrapper_decorator
+    return func(self, *args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1841, in send_command
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+Pattern not detected: '<R1>' in output.
+
+Things you might try to fix this:
+1. Explicitly set your pattern using the expect_string argument.
+2. Increase the read_timeout to a larger value.
+
+You can also look at the Netmiko session_log or debug log for more information.
+
+
+
+2026-03-23 17:20:21,844 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 17:20:22,339 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.13:22
+
+
+Authentication failed.
+
+2026-03-23 20:07:02,138 -  nornir.core -     INFO -        run() - Running task 'netdevice_start_conf_backup' with args {} on 4 hosts
+2026-03-23 20:07:02,528 - nornir.core.task -    ERROR -      start() - Host 'SW1': task 'netmiko_send_command' failed with traceback:
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 483, in connect
+    self._auth(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 814, in _auth
+    raise saved_exception
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\paramiko\auth_handler.py", line 263, in wait_for_response
+    raise e
+paramiko.ssh_exception.AuthenticationException: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\task.py", line 98, in start
+    r = self.task(self, **self.params)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\tasks\netmiko_send_command.py", line 26, in netmiko_send_command
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir\core\inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "C:\python\netdevice_test\.venv\lib\site-packages\nornir_netmiko\connections\netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 495, in __init__
+    self._open()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "C:\python\netdevice_test\.venv\lib\site-packages\netmiko\base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: huawei 192.168.50.13:22
+
+
+Authentication failed.
+
