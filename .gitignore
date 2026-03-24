@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+
+*.log
+backup_log.log
+
+*.zip
+
+inventory/*.xlsx
+!inventory/template.xlsx
+
+.DS_Store
+Thumbs.db
